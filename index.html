@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="root">
+        <main class="container">
+            <header class="header">
+                <input type="text" name="searchbox" id="searchBox" placeholder="Search for a city...">
+            </header>
+            <section class="content">
+                <div class="content-container">
+                    <div class="date">
+                        <h2 id="city-name">Adana</h2>
+                        <p id="date">Saturday 6 February 2022</p>
+                    </div>
+                    <div class="current">
+                        <p id="temp">15 <span class="c">°C</span></p>
+                        <p id="weat">Sunny</p>
+                        <p id="hi-low"><span class="min">13°C</span> / <span class="max">19°C</span></p>
+                        <img src="img/sun.svg" alt="weather" id="animation">
+                    </div>
+                </div>
+            </section>
+            <footer></footer>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
